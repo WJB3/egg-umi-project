@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>user</title>
+</head>
+
+<body>
+    user page
+    <br />
+    id: <%= id %>
+        <br />
+        name: <%= name %>
+            <br />
+            <ul> 
+                <% for(var i=0;i<lists.length;i++){ %>
+                    <li>
+                        <%= lists[i] %>
+                    </li>
+                    <% } %>  
+            </ul>
+</body>
+
+</html>
